@@ -7,6 +7,6 @@ void main(){
   String result = std(name2: 'Stone' , name1: 'Miles');
   print(result);
 
-}String std({String? name1, String? name2='Morales'}){
+}String std({String? name1='carl', String? name2='johnson'}){
   return '$name1 $name2';
 }
